@@ -1,0 +1,514 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-17T22:53:15.085Z",
+        "line": 3,
+        "name": "User will login to the account",
+        "description": "",
+        "id": "dashboard-page-scenarios;user-will-login-to-the-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard page scenarios",
+    "description": "",
+    "id": "dashboard-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-17T22:53:15.201Z",
+        "line": 11,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"All Topics\" are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-17T22:53:15.241Z",
+        "line": 12,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"Coding\" are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-17T22:53:15.258Z",
+        "line": 13,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"Soft skills\" are displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-17T22:53:15.274Z",
+        "line": 18,
+        "name": "User should add a statement in Do\u0027s section Statements should take only letters and number.",
+        "description": "",
+        "id": "home-page-related-scenarios;user-should-add-a-statement-in-do-s-section-statements-should-take-only-letters-and-number.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Do\u0027s section",
+            "match": {
+              "location": "step_definitions.HomeSteps.user_click_on_do_s_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Verify \"Add do\" section is enabled to click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add do\"",
+                  "offset": 12
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_verify_section_is_enabled_to_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter the value as a letter",
+            "match": {
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the value as a number",
+            "match": {
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on \"Enter\" button and verify is clickable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button_and_verify_is_clickable(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AUT-4-1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-17T22:53:15.290Z",
+        "line": 26,
+        "name": "User should add a statement in Don\u0027t section Statements should take only letters and number",
+        "description": "",
+        "id": "home-page-related-scenarios;user-should-add-a-statement-in-don-t-section-statements-should-take-only-letters-and-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Don\u0027t section",
+            "match": {
+              "location": "step_definitions.HomeSteps.user_click_on_don_t_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Verify \"Add Don\u0027t\" section is enabled to click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add Don\u0027t\"",
+                  "offset": 12
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_verify_section_is_enabled_to_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter the value as a letter",
+            "match": {
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User  enter the value as a number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User click on \"Enter\" button and verify is clickable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button_and_verify_is_clickable(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AUT-4-2"
+          }
+        ]
+      }
+    ],
+    "name": "Home page related scenarios",
+    "description": "",
+    "id": "home-page-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-17T22:53:15.304Z",
+        "line": 4,
+        "name": "User will login to the account",
+        "description": "",
+        "id": "login-page-tests;user-will-login-to-the-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginScenarios"
+          }
+        ]
+      }
+    ],
+    "name": "Login page tests",
+    "description": "",
+    "id": "login-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@loginScenarios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

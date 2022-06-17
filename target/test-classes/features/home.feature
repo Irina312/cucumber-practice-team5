@@ -14,7 +14,7 @@ Feature: Home page related scenarios
 
 
 
-  @IN-4-1
+  @AUT-4-1
   Scenario: User should add a statement in Do's section Statements should take only letters and number.
   Given User click on Do's section
   When User Verify "Add do" section is enabled to click
@@ -22,7 +22,7 @@ Feature: Home page related scenarios
   And User enter the value as a number
   Then User click on "Enter" button and verify is clickable
 
-  @IN-4-2
+  @AUT-4-2
   Scenario: User should add a statement in Don't section Statements should take only letters and number
     Given User click on Don't section
     When User Verify "Add Don't" section is enabled to click
