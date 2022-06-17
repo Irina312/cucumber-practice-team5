@@ -1,33 +1,11 @@
 @homeScenarios
 Feature: Home page related scenarios
+  @IN-2
+  Scenario: Verify user will see "Sign out" button and should not see "Manage Access" button
+    When User sign in I should be able to see sign out button
+      | Enter Username | test@yahoo.com |
+      | Enter Password | test123    |
+    And User clicks on "Login" button
+    Then Verify "Sign out" link is displayed
+    Then User should not have access to "Manage Access" button
 
-  Scenario: Verify header of the page is Automation with Selenium
-
-#    hardcoded parameter, don't use this way
-  @AUT-6 @smoke @regression @miniRegression
-  Scenario: Verify all links are displayed
-    Then Verify PHP Travels link is displayed
-
-#    parameterize step, with dynamic parameter
-  @linkTest
-  Scenario: Verify following link is displayed
-    Then Verify "Saucedemo" link is displayed
-
-  @scenarioOutlineExample @regression
-  Scenario Outline: Verify following link is displayed
-    Then Verify "<linkText>" link is displayed
-    Examples:
-      | linkText    |
-      | Saucedemo   |
-      | PHP Travels |
-      | Internet    |
-      | E-commerce  |
-
-  Scenario Outline: Verify button is enabled
-    Then Verify "<pageLink>" is enabled
-    Examples:
-      | pageLink   |
-      | Home       |
-      | Curriculum |
-#      | Notes      |
-#      | Inputs     |
