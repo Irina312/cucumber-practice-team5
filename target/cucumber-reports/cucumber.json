@@ -1,0 +1,342 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-18T00:24:18.645Z",
+        "line": 3,
+        "name": "User will login to the account",
+        "description": "",
+        "id": "dashboard-page-scenarios;user-will-login-to-the-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard page scenarios",
+    "description": "",
+    "id": "dashboard-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dashboard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-18T00:24:18.849Z",
+        "line": 11,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"All Topics\" are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-18T00:24:18.882Z",
+        "line": 12,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"Coding\" are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-18T00:24:18.896Z",
+        "line": 13,
+        "name": "User verifies dashboards are displayed",
+        "description": "",
+        "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify \"Soft skills\" are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page related scenarios",
+    "description": "",
+    "id": "home-page-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-18T00:24:18.912Z",
+        "line": 4,
+        "name": "User will login to the account",
+        "description": "",
+        "id": "login-page-tests;user-will-login-to-the-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters following credentials:",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_enters_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Enter Username",
+                  "test@yahoo.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Enter Password",
+                  "test123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginScenarios"
+          }
+        ]
+      }
+    ],
+    "name": "Login page tests",
+    "description": "",
+    "id": "login-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@loginScenarios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
