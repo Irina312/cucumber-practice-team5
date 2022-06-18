@@ -22,5 +22,10 @@ public class LoginSteps implements CommonPage {
     public void user_clicks_on_button(String btn) {
         WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_BUTTON, btn)));
     }
+    @Then("Verify the title is {string}")
+    public void verify_the_title_is(String title) {
+        Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
+
+    }
  }
 
