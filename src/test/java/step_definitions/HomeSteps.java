@@ -10,7 +10,7 @@ import utils.WebDriverManager;
 
 import static pages.CommonPage.XPATH_TEMPLATE_TEXT_CONTAINS;
 
-public class HomeSteps implements CommonPage {
+ public class HomeSteps implements CommonPage {
     HomePage homePage;
     public  HomeSteps () {
 
@@ -21,3 +21,4 @@ public class HomeSteps implements CommonPage {
             Assert.assertTrue((WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, dashboard)))));
         }
     }
+

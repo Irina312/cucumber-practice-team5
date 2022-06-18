@@ -6,11 +6,4 @@ Feature: Dashboard page scenarios
       | Enter Password | test123        |
     Then User clicks on "Login" button
 
-  Scenario Outline: Verify 3 dashboards present
-    Given User opens login page
-    When User switches to the dashboard page
-    Then User verifies "<dashboards>" are present
-    Examples:
-    |All Topics |
-    |Coding     |
-    |Soft skills|
+

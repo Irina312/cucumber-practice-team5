@@ -5,7 +5,7 @@ Feature: Home page related scenarios
       | Enter Username | test@yahoo.com |
       | Enter Password | test123        |
     And User clicks on "Login" button
-    And Verify "<dashboards>" are displayed
+    Then Verify "<dashboards>" are displayed
     Examples:
       | dashboards  |
       | All Topics  |
