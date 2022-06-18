@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-17T22:53:15.085Z",
+        "start_timestamp": "2022-06-18T02:25:02.454Z",
         "line": 3,
         "name": "User will login to the account",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -69,7 +69,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-17T22:53:15.201Z",
+        "start_timestamp": "2022-06-18T02:25:02.572Z",
         "line": 11,
         "name": "User verifies dashboards are displayed",
         "description": "",
@@ -105,7 +105,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -133,7 +132,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-17T22:53:15.241Z",
+        "start_timestamp": "2022-06-18T02:25:02.602Z",
         "line": 12,
         "name": "User verifies dashboards are displayed",
         "description": "",
@@ -143,7 +142,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -169,7 +167,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -197,7 +194,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-17T22:53:15.258Z",
+        "start_timestamp": "2022-06-18T02:25:02.613Z",
         "line": 13,
         "name": "User verifies dashboards are displayed",
         "description": "",
@@ -207,6 +204,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -259,7 +257,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-17T22:53:15.274Z",
+        "start_timestamp": "2022-06-18T02:25:02.626Z",
         "line": 18,
         "name": "User should add a statement in Do\u0027s section Statements should take only letters and number.",
         "description": "",
@@ -274,7 +272,7 @@
             "line": 19,
             "name": "User click on Do\u0027s section",
             "match": {
-              "location": "step_definitions.HomeSteps.user_click_on_do_s_section()"
+              "location": "step_definitions.HomeSteps.user_click_on_do_s_section(java.lang.String)"
             },
             "keyword": "Given "
           },
@@ -297,25 +295,23 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 21,
             "name": "User enter the value as a letter",
             "match": {
-              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter()"
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 22,
             "name": "User enter the value as a number",
             "match": {
-              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_number()"
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_number(java.lang.String)"
             },
             "keyword": "And "
           },
@@ -340,12 +336,12 @@
         ],
         "tags": [
           {
-            "name": "@AUT-4-1"
+            "name": "@IN-4-1"
           }
         ]
       },
       {
-        "start_timestamp": "2022-06-17T22:53:15.290Z",
+        "start_timestamp": "2022-06-18T02:25:02.645Z",
         "line": 26,
         "name": "User should add a statement in Don\u0027t section Statements should take only letters and number",
         "description": "",
@@ -355,18 +351,17 @@
         "steps": [
           {
             "result": {
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 27,
             "name": "User click on Don\u0027t section",
-            "match": {
-              "location": "step_definitions.HomeSteps.user_click_on_don_t_section()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 28,
             "name": "User Verify \"Add Don\u0027t\" section is enabled to click",
@@ -383,18 +378,19 @@
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 29,
             "name": "User enter the value as a letter",
             "match": {
-              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter()"
+              "location": "step_definitions.HomeSteps.user_enter_the_value_as_a_letter(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 30,
             "name": "User  enter the value as a number",
@@ -421,7 +417,7 @@
         ],
         "tags": [
           {
-            "name": "@AUT-4-2"
+            "name": "@IN-4-2"
           }
         ]
       }
@@ -437,7 +433,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-06-17T22:53:15.304Z",
+        "start_timestamp": "2022-06-18T02:25:02.667Z",
         "line": 4,
         "name": "User will login to the account",
         "description": "",
@@ -447,6 +443,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
