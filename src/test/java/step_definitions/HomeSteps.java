@@ -16,9 +16,10 @@ import static pages.CommonPage.XPATH_TEMPLATE_TEXT_CONTAINS;
 
         homePage = new HomePage();
     }
-        @Then("Verify {string} link is displayed")
-        public void verifyLinkIsDisplayed(String dashboard) {
-            Assert.assertTrue((WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, dashboard)))));
-        }
-    }
+
+     @Then("Verify {string} are displayed")
+     public void verifyAreDisplayed(String dashboard) {
+         Assert.assertTrue((WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, dashboard)))));
+     }
+ }
 
