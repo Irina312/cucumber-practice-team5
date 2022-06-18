@@ -1,11 +1,13 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -102,16 +104,25 @@ public class WebDriverManager {
     }
 
     public static boolean isDisplayed(WebElement element){
-        SeleniumUtils.moveIntoView(element);
-        SeleniumUtils.highlightElement(element);
-        SeleniumUtils.waitForElementVisibility(element);
+        try {
+            SeleniumUtils.moveIntoView(element);
+            SeleniumUtils.highlightElement(element);
+            SeleniumUtils.waitForElementVisibility(element);
+        }catch(NoSuchElementException e){
+            return false;
+        }
         return element.isDisplayed();
     }
 
     public static boolean isDisplayed(By by){
-        SeleniumUtils.moveIntoView(getDriver().findElement(by));
-        SeleniumUtils.highlightElement(getDriver().findElement(by));
-        SeleniumUtils.waitForElementVisibility(getDriver().findElement(by));
+        try {
+            SeleniumUtils.moveIntoView(getDriver().findElement(by));
+            SeleniumUtils.highlightElement(getDriver().findElement(by));
+            SeleniumUtils.waitForElementVisibility(getDriver().findElement(by));
+        }catch(NoSuchElementException e){
+            return false;
+        }
+
         return getDriver().findElement(by).isDisplayed();
     }
 
