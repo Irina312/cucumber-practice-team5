@@ -5,5 +5,8 @@ Feature: Login page tests
     When User enters following credentials:
       | Enter Username | test@yahoo.com |
       | Enter Password | test123        |
-    Then User clicks on "Login" button
+    And User clicks on "Login" button
+    Then User verifies the title of the page is "Interview App"
+
+
 
