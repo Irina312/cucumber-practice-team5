@@ -3,11 +3,31 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-18T00:24:18.645Z",
+        "start_timestamp": "2022-06-18T01:57:14.692Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 3,
         "name": "User will login to the account",
         "description": "",
         "id": "dashboard-page-scenarios;user-will-login-to-the-account",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -67,11 +87,31 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-06-18T00:24:18.849Z",
+        "start_timestamp": "2022-06-18T01:57:14.771Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 11,
         "name": "User verifies dashboards are displayed",
         "description": "",
         "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -129,11 +169,31 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-18T00:24:18.882Z",
+        "start_timestamp": "2022-06-18T01:57:14.786Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 12,
         "name": "User verifies dashboards are displayed",
         "description": "",
         "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -191,11 +251,31 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-18T00:24:18.896Z",
+        "start_timestamp": "2022-06-18T01:57:14.802Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 13,
         "name": "User verifies dashboards are displayed",
         "description": "",
         "id": "home-page-related-scenarios;user-verifies-dashboards-are-displayed;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -264,11 +344,31 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-06-18T00:24:18.912Z",
+        "start_timestamp": "2022-06-18T01:57:14.802Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 4,
         "name": "User will login to the account",
         "description": "",
         "id": "login-page-tests;user-will-login-to-the-account",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -299,7 +399,6 @@
           },
           {
             "result": {
-              "duration": 15000000,
               "status": "passed"
             },
             "line": 8,
